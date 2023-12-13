@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:damm_app/login.dart';
 import 'package:damm_app/ayuda.dart';
+import 'package:damm_app/contacto.dart';
 
 class HomeScreen extends StatelessWidget {
   final String barId;
@@ -42,6 +43,12 @@ class HomeScreen extends StatelessWidget {
               title: Text('Ayuda'),
               onTap: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context) => HelpScreen()));
+              },
+            ),
+            ListTile(
+              title: Text('Contáctanos'),
+              onTap: () {
+                Navigator.push(context, MaterialPageRoute(builder: (context) => ContactScreen()));
               },
             ),
             ListTile(
