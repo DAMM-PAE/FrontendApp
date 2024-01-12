@@ -6,6 +6,7 @@ class ContactScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.red,
+        foregroundColor: Colors.white,
         title: Text('Contacta con Nosotros'),
       ),
       body: Center(

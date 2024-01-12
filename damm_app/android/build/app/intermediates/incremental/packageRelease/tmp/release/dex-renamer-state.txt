@@ -1,0 +1,4 @@
+#Fri Jan 12 03:00:27 CET 2024
+base.0=C\:\\UPC\\Cuarto\\7Cuatrimestre\\PAE\\Project\\FrontendApp\\damm_app\\android\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

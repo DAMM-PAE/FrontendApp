@@ -1,0 +1,2 @@
+C:\Users\luc7a\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_email_sender-6.0.2\android\src\main\kotlin\com\sidlatau\flutteremailsender\FlutterEmailSenderPlugin.kt
+C:\Users\luc7a\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_email_sender-6.0.2\android\src\main\kotlin\com\sidlatau\flutteremailsender\FlutterEmailSenderFileProvider.kt

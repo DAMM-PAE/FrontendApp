@@ -24,7 +24,7 @@ class HelpScreen extends StatelessWidget {
     final Email email = Email(
       body: message,
       subject: 'Ayuda desde la aplicación Damm App',
-      recipients: ['kekoneh469@notedns.com'],
+      recipients: ['beerdrivesupp@gmail.com'],
       isHTML: false,
     );
 
@@ -75,6 +75,7 @@ class HelpScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.red,
+        foregroundColor: Colors.white,
         title: Text('Ayuda'),
       ),
     body: SingleChildScrollView(
@@ -84,6 +85,7 @@ class HelpScreen extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
+                SizedBox(height: 50),
                 Text(
                   'Escriba sus preguntas o sugerencias:',
                   style: TextStyle(
@@ -107,7 +109,7 @@ class HelpScreen extends StatelessWidget {
                     border: OutlineInputBorder(),
                   ),
                 ),
-                SizedBox(height: 200),
+                SizedBox(height: 150),
                 ElevatedButton(
                   onPressed: () {
                     String message = messageController.text;

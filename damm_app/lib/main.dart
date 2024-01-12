@@ -1,21 +1,8 @@
-// main.dart
-
 import 'package:flutter/material.dart';
+import 'login.dart';
 
 void main() {
   runApp(const MyApp());
-}
-
-class LoginScreen extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Inicio de Sesión'),
-      ),
-      // ... Resto del código de LoginScreen
-    );
-  }
 }
 
 class MyApp extends StatelessWidget {
@@ -24,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Tu Aplicación',
+      title: 'DAMM App',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,

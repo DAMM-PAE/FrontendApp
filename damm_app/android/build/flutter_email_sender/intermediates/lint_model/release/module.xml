@@ -1,0 +1,26 @@
+<lint-module
+    format="1"
+    dir="C:\Users\luc7a\AppData\Local\Pub\Cache\hosted\pub.dev\flutter_email_sender-6.0.2\android"
+    name=":flutter_email_sender"
+    type="LIBRARY"
+    maven="com.sidlatau.flutteremailsender:flutter_email_sender:"
+    agpVersion="8.2.0"
+    buildFolder="C:\UPC\Cuarto\7Cuatrimestre\PAE\Project\FrontendApp\damm_app\android\build\flutter_email_sender"
+    bootClassPath="C:\Users\luc7a\AppData\Local\Android\sdk\platforms\android-33\android.jar;C:\Users\luc7a\AppData\Local\Android\sdk\build-tools\34.0.0\core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-33"
+    neverShrinking="true">
+  <lintOptions
+      disable="InvalidPackage"
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true">
+    <severities>
+      <severity
+        id="InvalidPackage"
+        severity="IGNORE" />
+    </severities>
+  </lintOptions>
+  <variant name="release"/>
+</lint-module>
